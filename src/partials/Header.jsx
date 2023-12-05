@@ -23,18 +23,21 @@ function Header() {
 			<div className="max-w-6xl mx-auto px-5 sm:px-6">
 				<div className="flex items-center justify-between h-16 md:h-20">
 					{/* Site branding */}
-					<div className="flex flex-shrink-0 mr-4 items-center gap-4">
+					<a
+						className="flex flex-shrink-0 mr-4 items-center gap-4"
+						href="#home"
+					>
 						{/* Logo */}
 						{/* <Link to="/" className="block" aria-label="Blossom"> */}
 						<img src={blossomLogo} className="w-[5%]"></img>
 						<h1 className="font-bold text-3xl">Blossom</h1>
 						{/* </Link> */}
-					</div>
+					</a>
 
 					{/* Site navigation */}
-					<nav className="flex flex-grow">
+					<nav className="flex flex-shrink-0">
 						<ul className="flex flex-grow justify-end flex-wrap items-center">
-							<li>Documentation</li>
+							<li className="font-medium text-xl sm:text-md">Background</li>
 							<li></li>
 						</ul>
 					</nav>

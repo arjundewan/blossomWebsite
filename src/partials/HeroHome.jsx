@@ -11,7 +11,7 @@ function HeroHome() {
 	}, [videoModalOpen]);
 
 	return (
-		<section className="relative">
+		<section id="home" className="relative">
 			{/* Illustration behind hero content */}
 			<div
 				className="absolute left-1/2 transform -translate-x-1/2 bottom-0 pointer-events-none"
@@ -53,7 +53,7 @@ function HeroHome() {
 							data-aos="zoom-y-out"
 						>
 							A better way to{" "}
-							<span className="bg-clip-text text-transparent bg-gradient-to-r from-orange-500 to-red-400">
+							<span className="bg-clip-text text-transparent bg-gradient-to-r from-[#ff9130] to-[#FF5C00]">
 								explore
 							</span>{" "}
 							the web.
@@ -74,7 +74,7 @@ function HeroHome() {
 							>
 								<div>
 									<a
-										className="btn text-white text-xl bg-orange-600 hover:bg-orange-700 w-full mb-4 sm:w-auto sm:mb-0"
+										className="btn text-white text-xl bg-orange-600 hover:bg-orange-700 w-full mb-4 sm:w-auto sm:mb-0 rounded-lg"
 										href="https://tally.so/r/mD7xjb"
 										target="_blank"
 										rel="noopener noreferrer"
@@ -84,8 +84,8 @@ function HeroHome() {
 								</div>
 								<div>
 									<a
-										className="btn text-white text-xl bg-gray-900 hover:bg-gray-800 w-full sm:w-auto sm:ml-4"
-										href="#0"
+										className="btn text-white text-xl bg-gray-900 hover:bg-gray-800 w-full sm:w-auto sm:ml-4 rounded-lg"
+										href="#features"
 									>
 										Learn more
 									</a>
