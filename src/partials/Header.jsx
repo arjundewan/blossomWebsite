@@ -34,7 +34,7 @@ function Header() {
 					{/* Site navigation */}
 					<nav className="flex flex-grow">
 						<ul className="flex flex-grow justify-end flex-wrap items-center">
-							<li></li>
+							<li>Documentation</li>
 							<li></li>
 						</ul>
 					</nav>

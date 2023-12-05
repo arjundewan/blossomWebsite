@@ -1,6 +1,5 @@
 import React, { useState, useRef, useEffect } from "react";
 import Modal from "../utils/Modal";
-
 import HeroImage from "../images/hero-image.png";
 
 function HeroHome() {
@@ -75,7 +74,7 @@ function HeroHome() {
 							>
 								<div>
 									<a
-										className="btn text-white bg-orange-600 hover:bg-orange-700 w-full mb-4 sm:w-auto sm:mb-0"
+										className="btn text-white text-xl bg-orange-600 hover:bg-orange-700 w-full mb-4 sm:w-auto sm:mb-0"
 										href="https://tally.so/r/mD7xjb"
 										target="_blank"
 										rel="noopener noreferrer"
@@ -85,7 +84,7 @@ function HeroHome() {
 								</div>
 								<div>
 									<a
-										className="btn text-white bg-gray-900 hover:bg-gray-800 w-full sm:w-auto sm:ml-4"
+										className="btn text-white text-xl bg-gray-900 hover:bg-gray-800 w-full sm:w-auto sm:ml-4"
 										href="#0"
 									>
 										Learn more
@@ -104,13 +103,13 @@ function HeroHome() {
 						>
 							<div className="flex flex-col justify-center">
 								<img
-									className="mx-auto"
+									className="mx-auto drop-shadow-2xl"
 									src={HeroImage}
-									width="768"
-									height="432"
+									width="1000"
+									height="647.5"
 									alt="Hero"
 								/>
-								<svg
+								{/* <svg
 									className="absolute inset-0 max-w-full mx-auto md:max-w-none h-auto"
 									width="768"
 									height="432"
@@ -175,10 +174,10 @@ function HeroHome() {
 											<use fill="url(#hero-ill-e)" xlinkHref="#hero-ill-d" />
 										</g>
 									</g>
-								</svg>
+								</svg> */}
 							</div>
 							<button
-								className="absolute top-full flex items-center transform -translate-y-1/2 bg-white rounded-full font-medium group p-4 shadow-lg"
+								className="absolute top-full flex items-center transform -translate-y-1/2 bg-black rounded-full font-medium group p-4 shadow-lg"
 								onClick={(e) => {
 									e.preventDefault();
 									e.stopPropagation();
@@ -194,7 +193,9 @@ function HeroHome() {
 									<path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10zm0 2C5.373 24 0 18.627 0 12S5.373 0 12 0s12 5.373 12 12-5.373 12-12 12z" />
 									<path d="M10 17l6-5-6-5z" />
 								</svg>
-								<span className="ml-3">Watch the full video (2 min)</span>
+								<span className="ml-3 text-white">
+									Watch the full video (2 min)
+								</span>
 							</button>
 						</div>
 
