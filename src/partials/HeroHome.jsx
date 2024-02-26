@@ -176,7 +176,7 @@ function HeroHome() {
 									</g>
 								</svg> */}
 							</div>
-							<button
+							{/* <button
 								className="absolute top-full flex items-center transform -translate-y-1/2 bg-black rounded-full font-medium group p-4 shadow-lg"
 								onClick={(e) => {
 									e.preventDefault();
@@ -196,7 +196,7 @@ function HeroHome() {
 								<span className="ml-3 text-white">
 									Watch the full video (2 min)
 								</span>
-							</button>
+							</button> */}
 						</div>
 
 						{/* Modal */}

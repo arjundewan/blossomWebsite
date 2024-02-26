@@ -21,8 +21,9 @@ function Footer() {
 							in the{" "}
 							<a className="underline" href="http://dwig.lmc.gatech.edu/">
 								Digital World & Image Group
-							</a>
-							. All rights reserved.
+							</a>{" "}
+							under the mentorship of Professor Michael Nitsche. All rights
+							reserved.
 						</div>
 					</div>
 				</div>
