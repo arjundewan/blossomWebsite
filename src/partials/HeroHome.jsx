@@ -82,14 +82,14 @@ function HeroHome() {
 										Join the waitlist
 									</a>
 								</div>
-								<div>
+								{/* <div>
 									<a
 										className="btn text-white text-xl bg-gray-900 hover:bg-gray-800 w-full sm:w-auto sm:ml-4 rounded-lg"
 										href="#background"
 									>
 										Learn more
 									</a>
-								</div>
+								</div> */}
 							</div>
 						</div>
 					</div>
