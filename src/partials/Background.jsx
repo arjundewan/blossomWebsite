@@ -1,5 +1,6 @@
 import React from "react";
-import backgroundDiagram from "../images/backgroundDiagram.png";
+// import backgroundDiagram from "../images/backgroundDiagram.png";
+import TabOverloadImage from "../images/tab-overload.png";
 
 function FeaturesBlocks() {
 	return (
@@ -15,20 +16,23 @@ function FeaturesBlocks() {
 				<div className="py-12 md:py-20">
 					{/* Section header */}
 					<div className="flex flex-col items-center max-w-3xl mx-auto text-center pb-12 md:pb-20">
-						<h2 className="h2 mb-4">Background</h2>
+						{/* <h2 className="h2 mb-4">Background</h2> */}
 						{/* Items */}
 						{/* <div className="max-w-sm mx-auto grid gap-6 md:grid-cols-2 lg:grid-cols-3 items-start md:max-w-2xl lg:max-w-none"></div> */}
-						<p className="text-xl text-gray-600">
-							Today's web browsers are only focused on iterative search, with
-							cluttered lists of tabs and convoluted history, resulting in tab
-							overload and your ideas getting stuck quickly.
+						<p className="text-xl font-medium">
+							Today's web browsers are only designed around simple searches.
+							Every try exploring a topic only to find a mess of tabs, quickly
+							killing your creativity?
 						</p>
-						<p className="text-xl text-gray-600 mt-4">
+						<div className="flex w-[70%] justify-center mt-8 rounded-2xl">
+							<img src={TabOverloadImage} className="w-full"></img>
+						</div>
+						{/* <p className="text-xl text-gray-600 mt-4">
 							On the other hand, research shows that people actually alternate
 							between iterative and exploratory search, depending on how
 							abstract their end goal of browsing is.
-						</p>
-						<div className="flex w-[70%] justify-center p-4 mt-8 border-[#BDB9A4] border-4 rounded-2xl">
+						</p> */}
+						{/* <div className="flex w-[70%] justify-center p-4 mt-8 border-[#BDB9A4] border-4 rounded-2xl">
 							<img src={backgroundDiagram} className="w-full"></img>
 						</div>
 						<p className="text-xs w-[70%] text-gray-600 mt-2">
@@ -47,7 +51,7 @@ function FeaturesBlocks() {
 							, coined by Marcia J. Bates, which is argued to be "much closer to
 							the real behavior of information searchers" than traditional
 							models of browsing.
-						</p>
+						</p> */}
 					</div>
 				</div>
 			</div>

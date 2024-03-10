@@ -5,8 +5,15 @@ import featuresElement1 from "../images/featuresElement-1.png";
 import featuresElement2 from "../images/featuresElement-2.png";
 import featuresElement3 from "../images/featuresElement-3.png";
 import featuresElement4 from "../images/featuresElement-4.png";
+import featuresElement5 from "../images/featuresElement-5.png";
 
-import { Anchor, BrainCircuit, Sparkles, ScanSearch } from "lucide-react";
+import {
+	Anchor,
+	BrainCircuit,
+	Sparkles,
+	ScanSearch,
+	Highlighter,
+} from "lucide-react";
 
 function Features() {
 	const [tab, setTab] = useState(1);
@@ -37,7 +44,7 @@ function Features() {
 				<div className="pt-12 md:pt-20">
 					{/* Section header */}
 					<div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-						<h1 className="h2 mb-4">Discover the Features</h1>
+						<h1 className="h2 mb-4">Features</h1>
 						{/* <p className="text-xl text-gray-600">
 							Duis aute irure dolor in reprehenderit in voluptate velit esse
 							cillum dolore eu fugiat nulla pariatur excepteur sint occaecat
@@ -54,13 +61,12 @@ function Features() {
 						>
 							<div className="md:pr-4 lg:pr-12 xl:pr-16 mb-8">
 								<h3 className="h3 mb-3">
-									Built to help you explore the past and the future.
+									Built to help you explore the past and the future of your web.
 								</h3>
 								<p className="text-xl text-gray-600">
-									Blossom's powerful mapping creates an intuitive map to trace
-									your history, ensuring you never lose your tabs. It also
-									suggests content to discover next, in case you find yourself
-									stuck.
+									Blossom's powerful mapping allows you to trace your history in
+									context, ensuring you never lose your tabs. It also suggests
+									content to discover next in case you ever find yourself stuck.
 								</p>
 							</div>
 							{/* Tabs buttons */}
@@ -89,7 +95,7 @@ function Features() {
 										<BrainCircuit size={20} />
 									</div>
 								</a>
-								<a
+								{/* <a
 									className={`flex justify-between items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${
 										tab !== 2
 											? "bg-white shadow-md border-gray-200 hover:shadow-lg"
@@ -112,6 +118,30 @@ function Features() {
 									<div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
 										<Anchor size={20} />
 									</div>
+								</a> */}
+								<a
+									className={`flex justify-between items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${
+										tab !== 2
+											? "bg-white shadow-md border-gray-200 hover:shadow-lg"
+											: "bg-gray-200 border-transparent"
+									}`}
+									href="#0"
+									onClick={(e) => {
+										e.preventDefault();
+										setTab(2);
+									}}
+								>
+									<div>
+										<div className="font-bold leading-snug tracking-tight mb-1">
+											Inline Annotations
+										</div>
+										<div className="text-gray-600">
+											Mark up any webpage for later reference.
+										</div>
+									</div>
+									<div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
+										<Highlighter size={20} />
+									</div>
 								</a>
 								<a
 									className={`flex items-center justify-between text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${
@@ -130,7 +160,7 @@ function Features() {
 											Explore Button
 										</div>
 										<div className="text-gray-600">
-											Automatically suggests content to help you keep exploring.
+											Intelligently suggests content to help you keep exploring.
 										</div>
 									</div>
 									<div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
@@ -216,7 +246,7 @@ function Features() {
 									<div className="relative inline-flex flex-col">
 										<img
 											className="md:max-w-none mx-auto rounded"
-											src={featuresElement2}
+											src={featuresElement5}
 											width="500"
 											height="462"
 											alt="Features bg"

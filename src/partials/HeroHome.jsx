@@ -52,7 +52,7 @@ function HeroHome() {
 							className="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4"
 							data-aos="zoom-y-out"
 						>
-							A better way to{" "}
+							Blossom is a better way to{" "}
 							<span className="bg-clip-text text-transparent bg-gradient-to-r from-[#ff9130] to-[#FF5C00]">
 								explore
 							</span>{" "}
@@ -64,8 +64,9 @@ function HeroHome() {
 								data-aos="zoom-y-out"
 								data-aos-delay="150"
 							>
-								Our web browser ditches the cluttered tab system to help you
-								research more effectively.
+								Say goodbye to the cluttered tab system.
+								<br />
+								Research, annotate, and browse more effectively.
 							</p>
 							<div
 								className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center"

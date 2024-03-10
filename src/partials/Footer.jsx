@@ -17,13 +17,8 @@ function Footer() {
 							&{" "}
 							<a className="underline" href="mailto:adawadi6@gatech.edu">
 								Avaye Dawadi
-							</a>{" "}
-							in the{" "}
-							<a className="underline" href="http://dwig.lmc.gatech.edu/">
-								Digital World & Image Group
-							</a>{" "}
-							under the mentorship of Professor Michael Nitsche. All rights
-							reserved.
+							</a>
+							. All rights reserved.
 						</div>
 					</div>
 				</div>
