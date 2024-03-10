@@ -2,7 +2,7 @@ import React, { useState, useRef, useEffect } from "react";
 import Transition from "../utils/Transition";
 
 import featuresElement1 from "../images/featuresElement-1.png";
-import featuresElement2 from "../images/featuresElement-2.png";
+// import featuresElement2 from "../images/featuresElement-2.png";
 import featuresElement3 from "../images/featuresElement-3.png";
 import featuresElement4 from "../images/featuresElement-4.png";
 import featuresElement5 from "../images/featuresElement-5.png";
