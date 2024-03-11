@@ -15,7 +15,7 @@ function FeaturesBlocks() {
 			<div className="relative max-w-6xl mx-auto px-4 sm:px-6">
 				<div className="py-12 md:py-20">
 					{/* Section header */}
-					<div className="flex flex-col items-center max-w-3xl mx-auto text-center pb-12 md:pb-20">
+					<div className="flex flex-col items-center gap-10 max-w-3xl mx-auto text-center pb-12 md:pb-20">
 						{/* <h2 className="h2 mb-4">Background</h2> */}
 						{/* Items */}
 						{/* <div className="max-w-sm mx-auto grid gap-6 md:grid-cols-2 lg:grid-cols-3 items-start md:max-w-2xl lg:max-w-none"></div> */}
@@ -24,9 +24,14 @@ function FeaturesBlocks() {
 							Every try exploring a topic only to find a mess of tabs, quickly
 							killing your creativity?
 						</p>
-						<div className="flex w-[70%] justify-center mt-8 rounded-2xl">
-							<img src={TabOverloadImage} className="w-full"></img>
+						<div className="flex w-[70%] justify-center">
+							<img src={TabOverloadImage} className="w-full rounded-xl"></img>
 						</div>
+						<p className="text-xl font-medium">
+							Blossom's powerful mapping allows you to trace your history in
+							context, ensuring you never lose your tabs. It also suggests
+							content to discover next in case you ever find yourself stuck.
+						</p>
 						{/* <p className="text-xl text-gray-600 mt-4">
 							On the other hand, research shows that people actually alternate
 							between iterative and exploratory search, depending on how

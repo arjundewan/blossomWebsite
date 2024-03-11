@@ -11,11 +11,21 @@ function Footer() {
 					<div className="col-span-12">
 						<div className="text-sm text-gray-600 mr-4">
 							Created by{" "}
-							<a className="underline" href="https://arjundewan.me">
+							<a
+								className="underline"
+								href="https://arjundewan.me"
+								target="_blank"
+								rel="noopener noreferrer"
+							>
 								Arjun Dewan
 							</a>{" "}
 							&{" "}
-							<a className="underline" href="mailto:adawadi6@gatech.edu">
+							<a
+								className="underline"
+								href="https://avaye.netlify.app"
+								target="_blank"
+								rel="noopener noreferrer"
+							>
 								Avaye Dawadi
 							</a>
 							. All rights reserved.

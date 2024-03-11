@@ -4,6 +4,7 @@ import Header from "../partials/Header";
 import HeroHome from "../partials/HeroHome";
 import Features from "../partials/Features";
 import Background from "../partials/Background";
+import Roadmap from "../partials/Roadmap";
 import Footer from "../partials/Footer";
 
 function Home() {
@@ -16,6 +17,7 @@ function Home() {
 				<HeroHome />
 				<Background />
 				<Features />
+				<Roadmap />
 				{/* <Testimonials /> */}
 				{/* <Newsletter /> */}
 			</main>

@@ -61,13 +61,14 @@ function Features() {
 						>
 							<div className="md:pr-4 lg:pr-12 xl:pr-16 mb-8">
 								<h3 className="h3 mb-3">
-									Built to help you explore the past and the future of your web.
+									Built to help you explore the past and the future of your own
+									web.
 								</h3>
-								<p className="text-xl text-gray-600">
+								{/* <p className="text-xl text-gray-600">
 									Blossom's powerful mapping allows you to trace your history in
 									context, ensuring you never lose your tabs. It also suggests
 									content to discover next in case you ever find yourself stuck.
-								</p>
+								</p> */}
 							</div>
 							{/* Tabs buttons */}
 							<div className="mb-8 md:mb-0">
