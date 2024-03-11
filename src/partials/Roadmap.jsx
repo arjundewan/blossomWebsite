@@ -1,4 +1,5 @@
 import React from "react";
+import { CheckSquare, Square } from "lucide-react";
 
 function RoadmapBlocks() {
 	return (
@@ -21,12 +22,102 @@ function RoadmapBlocks() {
 				</div>
 				<div className="py-12 md:py-16">
 					{/* Section header */}
-					<div className="flex flex-col items-center gap-10 max-w-3xl mx-auto text-center pb-12 md:pb-20">
-						<p className="text-xl font-medium">
-							Today's web browsers are only designed around simple searches.
-							Every try exploring a topic only to find a mess of tabs, quickly
-							killing your creativity?
-						</p>
+					<div className="grid grid-cols-3 items-start mx-auto text-center pb-12 md:pb-20 leading-snug tracking-tight">
+						<div className="w-full text-left text-lg">
+							<p className="font-bold mb-2">Done</p>
+							<ul className="flex flex-col gap-1">
+								<div className="flex gap-2 text-gray-600 items-center">
+									<CheckSquare size={20} />
+									Core Browsing Processes (Chromium)
+								</div>
+								<div className="flex gap-2 text-gray-600 items-center">
+									<CheckSquare size={20} />
+									Command Palette with Autocomplete
+								</div>
+								<div className="flex gap-2 text-gray-600 items-center">
+									<CheckSquare size={20} />
+									Auto-Updating Map Structure
+								</div>
+								<div className="flex gap-2 text-gray-600 items-center">
+									<CheckSquare size={20} />
+									Map Branching & Stacking
+								</div>
+								<div className="flex gap-2 text-gray-600 items-center">
+									<CheckSquare size={20} />
+									Intelligent Explore
+								</div>
+								<div className="flex gap-2 text-gray-600 items-center">
+									<CheckSquare size={20} />
+									Search Lens
+								</div>
+								<div className="flex gap-2 text-gray-600 items-center">
+									<CheckSquare size={20} />
+									Saved History
+								</div>
+								<div className="flex gap-2 text-gray-600 items-center">
+									<CheckSquare size={20} />
+									MacOS Support
+								</div>
+							</ul>
+						</div>
+						<div className="w-full text-left text-lg">
+							<p className="font-bold mb-2">In Progress</p>
+							<ul className="flex flex-col gap-1">
+								<div className="flex gap-2 text-gray-600 items-center">
+									<Square size={20} />
+									Inline Page Annotations
+								</div>
+								<div className="flex gap-2 text-gray-600 items-center">
+									<Square size={20} />
+									Map Collisions and Edge Cases
+								</div>
+								<div className="flex gap-2 text-gray-600 items-center">
+									<Square size={20} />
+									Minimap
+								</div>
+								<div className="flex gap-2 text-gray-600 items-center">
+									<Square size={20} />
+									Pinned Tabs
+								</div>
+								<div className="flex gap-2 text-gray-600 items-center">
+									<Square size={20} />
+									Keyboard Shortcuts
+								</div>
+							</ul>
+						</div>
+						<div className="w-full text-left text-lg">
+							<p className="font-bold mb-2">Future</p>
+							<ul className="flex flex-col gap-1">
+								<div className="flex gap-2 text-gray-600 items-center">
+									<Square size={20} />
+									Universal History Search
+								</div>
+								<div className="flex gap-2 text-gray-600 items-center">
+									<Square size={20} />
+									Tab Renaming
+								</div>
+								<div className="flex gap-2 text-gray-600 items-center">
+									<Square size={20} />
+									Downloads Manager
+								</div>
+								<div className="flex gap-2 text-gray-600 items-center">
+									<Square size={20} />
+									Password Manager
+								</div>
+								<div className="flex gap-2 text-gray-600 items-center">
+									<Square size={20} />
+									Split Tabs
+								</div>
+								<div className="flex gap-2 text-gray-600 items-center">
+									<Square size={20} />
+									Windows Support
+								</div>
+								<div className="flex gap-2 text-gray-600 items-center">
+									<Square size={20} />
+									Linux Support
+								</div>
+							</ul>
+						</div>
 					</div>
 				</div>
 			</div>

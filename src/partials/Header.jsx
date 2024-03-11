@@ -26,13 +26,12 @@ function Header() {
 					<div className="flex flex-shrink-0 mr-4 ">
 						{/* Logo */}
 						{/* <Link to="/" className="block" aria-label="Blossom"> */}
-						<a className="flex gap-4 items-center w-min" href="#home">
+						<a className="flex gap-4 items-center w-min">
 							<img src={blossomLogo} className="w-[50px]"></img>
 							<h1 className="font-bold text-3xl">Blossom</h1>
 						</a>
 						{/* </Link> */}
 					</div>
-
 					{/* Site navigation */}
 					<nav className="flex flex-shrink-0">
 						<ul className="flex flex-grow justify-end flex-wrap items-center">

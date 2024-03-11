@@ -1,12 +1,10 @@
 import React, { useState, useRef, useEffect } from "react";
 import Transition from "../utils/Transition";
-
 import featuresElement1 from "../images/featuresElement-1.png";
 // import featuresElement2 from "../images/featuresElement-2.png";
 import featuresElement3 from "../images/featuresElement-3.png";
 import featuresElement4 from "../images/featuresElement-4.png";
 import featuresElement5 from "../images/featuresElement-5.png";
-
 import {
 	Anchor,
 	BrainCircuit,
@@ -39,7 +37,7 @@ function Features() {
 				className="absolute inset-0 bg-gray-100 pointer-events-none"
 				aria-hidden="true"
 			></div>
-			<div className="absolute left-0 right-0 m-auto w-px p-px h-20 bg-gray-200 transform -translate-y-1/2"></div>
+			<div className="absolute left-0 right-0 mx-auto w-px p-px h-20 bg-gray-200 transform -translate-y-1/2"></div>
 			<div className="relative max-w-6xl mx-auto px-4 sm:px-6">
 				<div className="pt-12 md:pt-20">
 					{/* Section header */}
@@ -158,10 +156,10 @@ function Features() {
 								>
 									<div>
 										<div className="font-bold leading-snug tracking-tight mb-1">
-											Explore Button
+											Intelligent Explore
 										</div>
 										<div className="text-gray-600">
-											Intelligently suggests content to help you keep exploring.
+											Suggests relevant content to help you keep exploring.
 										</div>
 									</div>
 									<div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
