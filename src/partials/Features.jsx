@@ -59,8 +59,8 @@ function Features() {
 						>
 							<div className="md:pr-4 lg:pr-12 xl:pr-16 mb-8">
 								<h3 className="h3 mb-3">
-									Built to help you explore the past and the future of your own
-									web.
+									Built to help you explore the past and the future of your
+									personal web.
 								</h3>
 								{/* <p className="text-xl text-gray-600">
 									Blossom's powerful mapping allows you to trace your history in
